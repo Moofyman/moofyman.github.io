@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great);
+
+#title {
+	font-size: 2em;
+	font-family: 'Fredericka the Great', serif;
+	color: white;
+	text-shadow: 0 2px 4px #000;
+	text-align: center;
+
+}
+
+body {
+
+	background-image: url("http://i.imgur.com/OcXBtpC.jpg");
+	background-color: transparent;
+	background-size: 730px;
+}
+
+nav {
+	text-align: left;
+	color: white;
+}
+
+nav a:link, #details a:visited {
+	color: #d3d3d3;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+nav a:active {
+	color: red;
+}
