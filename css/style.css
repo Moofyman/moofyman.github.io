@@ -11,26 +11,75 @@
 
 body {
 
-	background-image: url("http://i.imgur.com/OcXBtpC.jpg");
+	background-image: url("http://i.imgur.com/aK4G1Nu.jpg");  /* http://i.imgur.com/OcXBtpC.jpg */
 	background-color: transparent;
-	background-size: 730px;
+	background-size: 100%;
+	text-align: center;
 }
 
 nav {
-	text-align: left;
 	color: white;
+	
 }
 
 nav a:link, #details a:visited {
-	color: #d3d3d3;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: black;
+	color: #FFFFFF;
 	text-decoration: underline;
 }
 
 nav a:active {
-	color: red;
+	color: #FFFFFF;
+	text-decoration: blink;
+}
+
+nav {
+	
+}
+
+.feature img {
+	border: 5px white solid;
+	
+	height:500px;
+
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+#media img {
+	border: 5px #000000 solid;
+	padding:1px;
+	background: #FFFFF0;
+	display: inherit;
+
+}
+#media img:hover {
+	border: 5px #FFFFFF solid;
+	padding:1px;
+	background: black;
+}
+#small {
+	text-align: right;
+	size: .08em;
+}
+
+#media img {
+	position: relative;
+    
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
 }
