@@ -19,6 +19,9 @@ body {
 
 nav {
 	color: white;
+	padding:10px;
+	border: 1px black;
+
 	
 }
 
@@ -83,4 +86,9 @@ nav {
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
+}
+
+#feed {
+	margin:0;
+	padding:0;
 }
