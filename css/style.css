@@ -11,20 +11,42 @@
 a{
 	text-decoration: none;
 }
+
+
 body {
 	margin:0;
 	background-image: url("http://i.imgur.com/aK4G1Nu.jpg");  /* http://i.imgur.com/OcXBtpC.jpg */
 	background-color: transparent;
 	background-size: 100%;
 	text-align: center;
+	
 }
 
 nav {
 	color: white;
-	padding:10px;
+	padding:8px;
 	border: 1px black;
 
+   
+
+
 	
+}
+
+
+nav a {
+  display: inline-block;
+  width: 12%;
+  margin: 0;
+  padding: 12px 0;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  text-decoration: none;
+  font: 1.1em "Trebuchet MS", Arial, sans-serif;
+  -webkit-text-stroke: 1px black;
+  font-weight: bold;
 }
 
 nav a:link, a:visited {
@@ -43,7 +65,7 @@ nav a:active {
 }
 
 nav {
-	
+	clear:both;
 }
 
 #feature img {	
@@ -112,17 +134,27 @@ nav {
 
 @media only screen and (max-width: 980px) {
   .photoz { width: 23%; }
+
 }
 
 @media only screen and (max-width: 780px) {
   .photoz { width: 31.333%; }
+  nav a {
+    font-size: 0.9em;
+  }
 }
 
 @media only screen and (max-width: 650px) {
   .photoz { width: 48%; }
+  nav a {
+    font-size: 0.7em;
+  }
 }
 
 @media only screen and (max-width: 450px) {
   .photoz { width: 98%; }
+  nav a {
+    font-size: 0.6em;
+  }
 }
 

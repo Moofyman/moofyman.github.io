@@ -15,7 +15,6 @@ $(document).ready(function(){
       if (checkid === current_gallery) {
         console.log('itsa same mario!');
       } else {
-        current_gallery = checkid;
 
         if ($(checkid).data('visited') === 0) {
 
@@ -64,6 +63,9 @@ $(document).ready(function(){
           console.log('visit gallery seond time');
 
         }
+
+        current_gallery = checkid;
+
       } //else ends
 
     // $(checkid).masonry('reload', {
