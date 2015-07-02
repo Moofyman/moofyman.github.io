@@ -10,33 +10,37 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	
 </head>
-<body>
+<body >
 	
-	<h1 id="title">MATTHEW COHEN PHOTOGRAPHY</h1>
+	<a href=index.html id="header"><h1 id="title">MATTHEW COHEN PHOTOGRAPHY</h1></a>
 
 	<nav>
 		
 		
-		<a href="photos.html">Photos</a>
+		<a href="#photos" data-photoset-id="72157654989129961">Objects</a>
 		
-		<a href="gear.html">Gear</a>
+		<a href="#black-and-white" data-photoset-id="72157654573676929">Black And White</a>
 		
-		<a href="dogs.html">Dogs</a>
+		<a href="#space" data-photoset-id="72157652668931283">Space</a>
 
-		
-
-
-		
+		<a href="#contrast" data-photoset-id="72157654582452338">Contrast</a>
 
 	</nav>
-
-	<div class="feature">
+	<main class="clearfix">	
+		<div id="feature" class="active" data-visited="0">
+			<a><img  src="http://i.imgur.com/aP0OImC.jpg" title="White Roses" /></a>
+		</div>
+		<div id="photos" data-visited="0">Objects</div>
+		<div id="black-and-white" data-visited="0">Black And White</div>
+		<div id="space" data-visited="0">Space</div>
+		<div id="contrast" data-visited="0"></div>
+	<!-- <div class="feature">
 	
 	<a > <img  src="http://i.imgur.com/aP0OImC.jpg" title="White Roses" /></a>
 	
-	</div>
-
-	<div id="media">
+	</div> -->
+	</main>
+	<div id="media" class="clearfix">
 		<a href="http://thesearenotpictures.tumblr.com/"><img src="https://secure.assets.tumblr.com/images/logo_page/img_logo_34465d_2x.png" alt="tumblr logo"></a>
 
 		<a href="http://www.matthewcohenphoto.com/"><img src="http://i.imgur.com/AEIES4v.jpg" alt="smugmug"></a>
@@ -46,5 +50,11 @@
 	
 		<p id="small">&copy Matthew Cohen Photography 2015</p>
 
+
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.1.2/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/gallery.js"></script>
 </body>
 </html>
