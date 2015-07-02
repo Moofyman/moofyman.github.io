@@ -26,6 +26,7 @@ nav {
 	color: white;
 	padding:8px;
 	border: 1px black;
+	background: rgba(0,0,0,0.1) 
 
    
 
@@ -42,14 +43,14 @@ nav a {
   text-transform: uppercase;
   color: black;
   text-align: center;
-  border-right: 1px solid #ccc;
+  border-right: 2px solid #ccc;
   text-decoration: none;
   font: 1.1em "Trebuchet MS", Arial, sans-serif;
   -webkit-text-stroke: 1px black;
   font-weight: bold;
 }
 
-nav a:link, a:visited {
+nav a:link,  {
 	color: #FFFFFF;
 	text-decoration: none;
 }
@@ -57,6 +58,11 @@ nav a:link, a:visited {
 nav a:hover {
 	color: #000;
 	text-decoration: underline;
+	color: #FFFFFF;
+	font-weight: bold;
+
+	-webkit-text-stroke: 1px black;
+  font-weight: bold;
 }
 
 nav a:active {
